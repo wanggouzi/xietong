@@ -1,0 +1,372 @@
+/*轮播图*/
+#carousel-example-generic{
+	width:100%;
+	margin: 0 auto;
+	min-width: 1200px;
+	
+}
+#carousel-example-generic img{
+	width: 100%;
+	height:380px;
+}
+#carousel-example-generic .right{
+	background: none;
+}
+#carousel-example-generic .left{
+	background: none;
+}
+#carousel-example-generic .glyphicon-chevron-left{
+	margin-left:-50px;
+}
+#carousel-example-generic .glyphicon-chevron-right{
+	margin-right:-50px;
+}
+.carousel-indicators{
+	top:360px;
+}
+#func_div{
+	width:1010px;
+	margin: 0 auto;
+	min-width:1010px;
+	margin-top:20px;
+}
+#func_div div{
+	display: inline-block;
+	vertical-align:top;
+}
+#banners_div{
+	width:1010px;
+	margin: 0 auto;
+	min-width:1010px;
+	margin-top:20px;
+}
+#banners_div .banner_div,#banners_div .banner_div_tab{
+	display: inline-block;
+	vertical-align: top;
+}
+#banners_div .banner_div #banner{
+	
+}
+#banners_div .banner_div_tab{
+	margin-left:20px;
+	width:408px;
+}
+#myTab1>li>a {
+    padding: 10px 19px;
+    color:gray;
+}
+#xwzx .myTabContent1 .navs{
+	height:65px;
+}
+#xwzx .first_article{
+	padding:10px;
+	padding-bottom:0;
+}
+#xwzx .first_article .navs .nav_left,#xwzx .first_article .navs .nav_right{
+	display: inline-block;
+	vertical-align: top;
+	height:65px;
+}
+#xwzx .first_article .navs .nav_left div{
+	background-color:deepskyblue;
+	color: white;
+	font-weight: bold;
+	padding:5px 10px;
+	margin-top:2px;
+}
+#xwzx .first_article .navs .nav_right{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width:330px;
+}
+#xwzx .first_article .navs .nav_right a{
+	text-decoration: none;
+	line-height:65px;
+	color: #0054a6;
+	font-size:16px;
+	font-weight:bold;
+}
+#xwzx .first_article .contents p{
+	font-size:13px;
+	line-height:20px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient: vertical;
+	width:380px;
+}
+#xwzx .first_article .contents a{
+	/*position: relative;
+	bottom:10px;*/
+	font-size:13px;
+	color:#ff6c00;
+}
+#xwzx ul,#tzgg ul,#qndt ul,#gwyxx ul{
+	padding-left:10px;
+}
+#xwzx ul li,#tzgg ul li,#qndt ul li,#gwyxx ul li{
+	line-height:28px;
+	list-style: none;
+	width:380px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#xwzx ul li a,#tzgg ul li a,#qndt ul li a,#gwyxx ul li a{
+	color: #272727 ;
+}
+#swiper0{
+	width:800px;
+	height:40px;
+	float:left;
+	overflow:hidden;
+	line-height:40px;
+}
+.hotswiper-button-prev{
+	top:30px;
+}
+#swiper0 .swiper-slide{
+	position:static;
+}
+#hot_focus{
+	width:1010px;
+	margin: 0 auto;
+	min-width:1010px;
+	margin-top:20px;
+}
+.rdgz
+{
+    position:relative;
+    height:43px;
+    line-height:43px;
+    border:1px solid #DDDDDD;
+    background:#EEEEEE url(../img/rdgz_ico.jpg) no-repeat left top;}
+    
+.rdgz h3
+{
+    font-size:16px;
+    font-family: "Microsoft YaHei";
+    margin:12px 65px 0 20px;
+    color:#333;
+    float:left;
+}
+.rdgz a{
+	color: #4F4F4F ;
+	text-decoration: none;
+}
+.rdgz a:hover{
+	color:#2c7dd9;
+}
+.dico
+{
+    padding-left:12px;
+    background:url(../img/dico.jpg) no-repeat left center;
+}
+    
+.rdgz .xs
+{
+    position:absolute;
+    right:20px;
+    top:8px;z-index:50;
+    }
+    
+.rdgz .xx
+{
+    position:absolute;
+    right:20px;
+    bottom:8px;z-index:50;
+}
+/*热点关注之前*/
+/*#hot_focus{
+	width:1010px;
+	margin: 0 auto;
+	min-width:1010px;
+	margin-top:20px;
+	background: #F0F0F0 ;
+}
+#hot_focus .hot_focus_left,#hot_focus .hot_focus_right{
+	display: inline-block;
+	vertical-align: top;
+}
+#hot_focus .hot_focus_left img{
+	height:45px
+}
+#hot_focus .hot_focus_right{
+	line-height:45px;
+	
+}*/
+
+#goverments{
+	width:1010px;
+	margin: 0 auto;
+	min-width:1010px;
+	margin-top:20px;
+}
+#goverments .goverment{
+	width:500px;
+	display: inline-block;
+	vertical-align: top;
+}
+#goverments .nav>li>a{
+    padding: 10px 53px;
+    color:#272727;
+}
+#goverments .goverment .tab-content ul{
+	padding-left:10px;
+	padding-top:10px;
+}
+#goverments .goverment .tab-content li .wz{
+	width:360px;
+	display: inline-block;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align:middle;
+}
+#goverments .goverment .tab-content li .wz a{
+	color:#272727;
+	text-decoration: none;
+}
+#goverments .goverment .tab-content li .wz a:hover{
+	color: #f57a11;
+	cursor: pointer;
+}
+#goverments .goverment .tab-content li{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:450px;
+    line-height:25px;
+}
+#goverments .goverment .tab-content li .time{
+	float: right;
+}
+#services{
+	width:1010px;
+	margin: 0 auto;
+	min-width:1010px;
+	margin-top:20px;
+}
+#services .company_service,#services .public_service{
+	display: inline-block;
+	width:500px;
+	vertical-align: top;
+}
+#services .public_service{
+	margin-left:5px;
+}
+#services .navs div{
+	display: inline-block;
+	vertical-align:middle;
+}
+#services  .navs .blue{
+	width:10px;
+	height:40px;
+	background: url(../img/blue.jpg);
+}
+#services .navs .wz{
+	font-weight: bold;
+    width:90px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    padding-left:15px;
+}
+#services  .navs .hr{
+	width: 340px;
+	height:1px;
+	background:lightgray;
+}
+#services  .contents{
+	padding:10px;
+	text-align: center;
+}
+#services  .contents table{
+
+}
+#services  .contents table td{
+	padding:5px 3px;
+	/*border: 1px solid red;*/
+}
+#services  .contents table td div{
+	background: #f7f7f7;
+    border: 1px solid #ebebeb;
+	padding:5px;
+	width:115px;
+}
+#services  .contents table td div a{
+	color:#272727;
+}
+#government-communication{
+	width: 1010px;
+	margin: 0 auto;
+}
+#government-communication a{
+	text-decoration: none;
+	color:#272727;
+	font-size:13px;
+}
+#government-communication .navs div{
+	display: inline-block;
+	vertical-align:middle;
+}
+#government-communication  .navs .blue{
+	width:10px;
+	height:40px;
+	background: url(../img/blue.jpg);
+}
+#government-communication  .navs .wz{
+	font-weight: bold;
+    width:90px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    padding-left:15px;
+}
+#government-communication  .navs .hr{
+	width: 340px;
+	height:1px;
+	background:lightgray;
+}
+#government-communication .sort-blue{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	text-align: center;
+	padding:12px 0px;
+	color:white;
+	width: 35px;
+	background-color: #74C8E8;
+}
+#government-communication td{
+	width: 100px;
+	height:25px;
+}
+#government-communication .government{
+	width: 500px;
+	float: left;
+}
+#government-communication .sort-content{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	margin-left:20px;
+}
+#government-communication .government .public-inf{
+	margin-top: 12px;
+}
+#government-communication .communication{
+	float: right;
+}
+#government-communication .icon-link{
+	font-size: 13px;
+}
+#government-communication .icon-link img{
+	vertical-align: middle;
+	margin-left: 30px;
+}
+#government-communication .communication .icon-link1{
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
